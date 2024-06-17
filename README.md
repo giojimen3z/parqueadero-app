@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Parqueadero Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este es el frontend de una aplicación de gestión de parqueaderos. La aplicación permite a los usuarios agregar vehículos, listar vehículos y realizar el checkout de vehículos. Está construida con React y se conecta a un backend desarrollado en Go.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- **Agregar Vehículos**: Permite agregar nuevos vehículos al parqueadero.
+- **Listar Vehículos**: Muestra una lista de todos los vehículos actualmente en el parqueadero.
+- **Checkout de Vehículos**: Permite realizar el checkout de vehículos, calculando el costo del estacionamiento.
 
-### `npm start`
+## Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Biblioteca de JavaScript para construir interfaces de usuario.
+- **Axios**: Cliente HTTP para realizar solicitudes al backend.
+- **React Router**: Biblioteca para manejar la navegación en la aplicación.
 
-### `npm test`
+### Backend
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Go (Golang)**: Lenguaje de programación utilizado para el backend.
+- **Gin**: Framework web para Go utilizado para construir el backend.
+- **GORM**: ORM para manejar la base de datos en Go.
+- **SQLite**: Base de datos utilizada para almacenar los datos de los vehículos.
 
-### `npm run build`
+## Requisitos Previos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Node.js**: Asegúrate de tener Node.js instalado para ejecutar el frontend.
+- **Go**: Asegúrate de tener Go instalado para ejecutar el backend.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Instalación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Clonar el Repositorio
 
-### `npm run eject`
+```bash
+git clone https://github.com/giojimen3z/parqueadero-app.git
+cd parqueadero-app
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contribuciones
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+¡Las contribuciones son bienvenidas! Si tienes sugerencias, errores que reportar o nuevas funcionalidades que agregar, por favor abre un issue o un pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Licencia
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
